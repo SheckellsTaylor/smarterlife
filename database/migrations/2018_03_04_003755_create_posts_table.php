@@ -18,7 +18,7 @@ class CreatePostsTable extends Migration
             $table->string('title');
             $table->text('body');
             $table->string('category');
-            $table->LONGBLOB('video');
+            $table->BLOB('video');
             $table->string('duration');
             $table->LONGBLOB('image');
             $table->text('metaauth');
